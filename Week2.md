@@ -1,32 +1,35 @@
-## Week 2
-### Week Challenges (Monday)
+Week 2
+========
+## Week Challenges (Monday)
 
-### Week Challenges (Tuesday)
+## Week Challenges (Tuesday)
 
-#### 0. Watch this video :white_check_mark:
+**0. Watch this video** :white_check_mark:
 
-#### 1. Multiply :white_check_mark:
+**1. Multiply** :white_check_mark:
+
 This code does not execute properly. Try to figure out why.
-
+```Javascript
 function multiply(a, b){
   a * b;
 }
-
+```
 Answer:
-
+```Javascript
 function multiply(a, b){
   return a * b;
 }
+```
+**2. ASCII Total** :white_check_mark:
 
-#### 2. ASCII Total :white_check_mark:
 You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
 
 examples:
-
+```
 uniTotal("a") == 97 uniTotal("aaa") == 291
-
+```
 Answer:
-
+```Javascript
 function uniTotal (string) {
   let arr = Array.from(string);//SE CONVIERTE LA CADENA A UN ARREGLO => [a,a,a]
   let sum = 0;
@@ -35,25 +38,27 @@ function uniTotal (string) {
   }
   return sum; // como es una funcion debe de devolver un valor 
 }
+```
+**3. get character from ASCII Value** :white_check_mark:
 
-#### 3. get character from ASCII Value :white_check_mark:
-Write a function get_char() / getChar() which takes a number and returns the corresponding ASCII char for that value.
+Write a function `get_char() / getChar()` which takes a number and returns the corresponding ASCII `char` for that value.
 
 Example:
 
-get_char(65)
+`get_char(65)`
 
 should return:
 
-'A'
+`'A'`
 
 Answer:
-
+```Javascript
 function getChar(c){
   return String.fromCharCode(c)
 }
+```
+**4. Binary Addition** :white_check_mark:
 
-#### 4. Binary Addition :white_check_mark:
 Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition.
 
 The binary number returned should be a string.
@@ -64,3 +69,7 @@ Examples:(Input1, Input2 --> Output (explanation)))
 5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
 
 Answer:
+
+## Week Challenges (Wednesday)
+
+## Week Challenges (Thursday)
