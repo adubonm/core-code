@@ -2,6 +2,11 @@ Week 2
 ========
 ## Week Challenges (Monday)
 
+**1. Follow the github course, you can find it here** :white_check_mark:<br>
+**2. Watch this video** :white_check_mark:<br>
+**3. Read this** :white_check_mark:<br>
+**4. Create an account in Codewars** :white_check_mark:
+
 ## Week Challenges (Tuesday)
 
 **0. Watch this video** :white_check_mark:
@@ -69,6 +74,34 @@ Examples:(Input1, Input2 --> Output (explanation)))
 5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
 
 Answer:
+
+**5. Student's Final Grade** :white_check_mark:
+
+Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
+
+This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);
+
+This function should return a number (final grade). There are four types of final grades:
+
+100, if a grade for the exam is more than 90 or if a number of completed projects more than 10.
+90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5.
+75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2.
+0, in other cases
+
+Answer:
+```Javascript
+function finalGrade (exam, projects) {
+  if (exam <= 100 && exam >= 0){
+    if (exam > 90 || projects > 10){
+      return 100;
+    } else if (exam > 75 && projects >= 5){
+      return 90;
+    } else if (exam > 50 && projects >= 2){
+      return 75;
+    } else {return 0;}
+  } else { return "Not a valid number";}
+}
+```
 
 ## Week Challenges (Wednesday)
 
