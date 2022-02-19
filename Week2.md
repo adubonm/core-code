@@ -3,21 +3,21 @@
 <h2>Monday | Week 2 Challenges</h2>
 
 <h3>Challenge 1</h3>
-Follow the github course, you can find it here** :white_check_mark:<br>
+Follow the github course, you can find it here
 <h3>Challenge 2</h3>
-Watch <a href="https://www.youtube.com/watch?v=A37-3lflh8I" target="_blank">this</a> video:white_check_mark:<br>
+Watch <a href="https://www.youtube.com/watch?v=A37-3lflh8I" target="_blank">this</a> video
 <h3>Challenge 3</h3>
-Read <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math" target="_blank">this</a> :white_check_mark:<br>
+Read <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math" target="_blank">this</a>
 <h3>Challenge 4</h3>
-Create an account in Codewars** :white_check_mark:
+Create an account in Codewars
 
 <h2>Tuesday | Week 2 Challennges</2>
 
 <h3>Challenge 0</h3>
-Watch <a href="https://www.youtube.com/watch?v=cEBkvm0-rg0" target="_blank"> video :white_check_mark:
+Watch <a href="https://www.youtube.com/watch?v=cEBkvm0-rg0" target="_blank"> video
 
 <h3>Challenge 1</h3>
-<strong>Multiply</strong>:white_check_mark:
+<strong>Multiply</strong>
 
 This code does not execute properly. Try to figure out why.
 ```Javascript
@@ -32,7 +32,7 @@ function multiply(a, b){
 }
 ```
 <h3>Challenge 2</h3>
-**ASCII Total** :white_check_mark:
+<strong>ASCII Total</strong>
 
 You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
 
@@ -52,7 +52,7 @@ function uniTotal (string) {
 }
 ```
 <h3>Challenge 3</h3>
-<strong>get character from ASCII Value</strong> :white_check_mark:
+<strong>get character from ASCII Value</strong>
 
 Write a function `get_char() / getChar()` which takes a number and returns the corresponding ASCII `char` for that value.
 
@@ -71,7 +71,7 @@ function getChar(c){
 }
 ```
 <h3>Challenge 4</h3>
-<strong>Binary Addition</strong> :white_check_mark:
+<strong>Binary Addition</strong>
 
 Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition.
 
@@ -85,7 +85,7 @@ Examples:(Input1, Input2 --> Output (explanation)))
 Answer:
 
 <h3>Challenge 5</h3>
-<strong>Student's Final Grade</strong> :white_check_mark:
+<strong>Student's Final Grade</strong>
 
 Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
 
@@ -116,7 +116,7 @@ function finalGrade (exam, projects) {
 <h2>Wednesday | Week 2 Challennges</2>
 
 <h3>Challenge 1</h3>
-<strong>Holiday VIII - Duty Free</strong> :white_check_mark:
+<strong>Holiday VIII - Duty Free</strong>
 
 The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday.
 
