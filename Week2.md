@@ -91,7 +91,7 @@ Examples:(Input1, Input2 --> Output (explanation)))
 
 Answer:
 </table></tr></td>
-</table></tr></td>
+<table><tr><td>
 <h3>Challenge 5</h3>
 <strong>Student's Final Grade</strong>
 
