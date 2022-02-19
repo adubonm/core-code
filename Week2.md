@@ -32,8 +32,7 @@ function multiply(a, b){
   return a * b;
 }
 ```
-</table></tr></td>
-<table><tr><td>
+
 <h3>Challenge 2</h3>
 <strong>ASCII Total</strong>
 
@@ -74,8 +73,7 @@ function getChar(c){
   return String.fromCharCode(c)
 }
 ```
-</table></tr></td>
-<table><tr><td>
+
 <h3>Challenge 4</h3>
 <strong>Binary Addition</strong>
 
