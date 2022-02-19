@@ -1,17 +1,23 @@
-Week 2
-========
-## Week Challenges (Monday)
+<h1>Week 2 CoreCode Challenges</h1>
 
-**1. Follow the github course, you can find it here** :white_check_mark:<br>
-**2. Watch this video** :white_check_mark:<br>
-**3. Read this** :white_check_mark:<br>
-**4. Create an account in Codewars** :white_check_mark:
+<h2>Monday | Week 2 Challenges</h2>
 
-## Week Challenges (Tuesday)
+<h3>Challenge 1</h3>
+Follow the github course, you can find it here** :white_check_mark:<br>
+<h3>Challenge 2</h3>
+Watch <a href="https://www.youtube.com/watch?v=A37-3lflh8I" target="_blank">this</a> video:white_check_mark:<br>
+<h3>Challenge 3</h3>
+Read <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math" target="_blank">this</a> :white_check_mark:<br>
+<h3>Challenge 4</h3>
+Create an account in Codewars** :white_check_mark:
 
-**0. Watch this video** :white_check_mark:
+<h2>Tuesday | Week 2 Challennges</2>
 
-**1. Multiply** :white_check_mark:
+<h3>Challenge 0</h3>
+Watch <a href="https://www.youtube.com/watch?v=cEBkvm0-rg0" target="_blank"> video :white_check_mark:
+
+<h3>Challenge 1</h3>
+**Multiply** :white_check_mark:
 
 This code does not execute properly. Try to figure out why.
 ```Javascript
@@ -25,7 +31,8 @@ function multiply(a, b){
   return a * b;
 }
 ```
-**2. ASCII Total** :white_check_mark:
+<h3>Challenge 2</h3>
+**ASCII Total** :white_check_mark:
 
 You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
 
@@ -44,7 +51,8 @@ function uniTotal (string) {
   return sum; // como es una funcion debe de devolver un valor 
 }
 ```
-**3. get character from ASCII Value** :white_check_mark:
+<h3>Challenge 3</h3>
+**get character from ASCII Value** :white_check_mark:
 
 Write a function `get_char() / getChar()` which takes a number and returns the corresponding ASCII `char` for that value.
 
@@ -62,7 +70,8 @@ function getChar(c){
   return String.fromCharCode(c)
 }
 ```
-**4. Binary Addition** :white_check_mark:
+<h3>Challenge 4</h3>
+**Binary Addition** :white_check_mark:
 
 Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition.
 
@@ -75,7 +84,8 @@ Examples:(Input1, Input2 --> Output (explanation)))
 
 Answer:
 
-**5. Student's Final Grade** :white_check_mark:
+<h3>Challenge 5</h3>
+**Student's Final Grade** :white_check_mark:
 
 Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
 
@@ -103,9 +113,10 @@ function finalGrade (exam, projects) {
 }
 ```
 
-## Week Challenges (Wednesday)
+<h2>Wednesday | Week 2 Challennges</2>
 
-**1. Holiday VIII - Duty Free** :white_check_mark:
+<h3>Challenge 1</h3>
+**Holiday VIII - Duty Free** :white_check_mark:
 
 The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday.
 
