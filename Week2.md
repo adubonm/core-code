@@ -17,7 +17,7 @@ Create an account in Codewars** :white_check_mark:
 Watch <a href="https://www.youtube.com/watch?v=cEBkvm0-rg0" target="_blank"> video :white_check_mark:
 
 <h3>Challenge 1</h3>
-**Multiply** :white_check_mark:
+<strong>Multiply</strong>:white_check_mark:
 
 This code does not execute properly. Try to figure out why.
 ```Javascript
@@ -52,7 +52,7 @@ function uniTotal (string) {
 }
 ```
 <h3>Challenge 3</h3>
-**get character from ASCII Value** :white_check_mark:
+<strong>get character from ASCII Value</strong> :white_check_mark:
 
 Write a function `get_char() / getChar()` which takes a number and returns the corresponding ASCII `char` for that value.
 
@@ -71,7 +71,7 @@ function getChar(c){
 }
 ```
 <h3>Challenge 4</h3>
-**Binary Addition** :white_check_mark:
+<strong>Binary Addition</strong> :white_check_mark:
 
 Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition.
 
@@ -85,7 +85,7 @@ Examples:(Input1, Input2 --> Output (explanation)))
 Answer:
 
 <h3>Challenge 5</h3>
-**Student's Final Grade** :white_check_mark:
+<strong>Student's Final Grade</strong> :white_check_mark:
 
 Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
 
@@ -116,7 +116,7 @@ function finalGrade (exam, projects) {
 <h2>Wednesday | Week 2 Challennges</2>
 
 <h3>Challenge 1</h3>
-**Holiday VIII - Duty Free** :white_check_mark:
+<strong>Holiday VIII - Duty Free</strong> :white_check_mark:
 
 The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday.
 
@@ -131,4 +131,4 @@ Answer:
 
 ```
 
-## Week Challenges (Thursday)
+<h2>Thursday | Week 2 Challennges</2>
