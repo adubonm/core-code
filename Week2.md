@@ -12,11 +12,11 @@ Read <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_st
 Create an account in Codewars
 
 <h2>Tuesday | Week 2 Challennges</2>
-<table><tr><td>
+
 <h3>Challenge 0</h3>
 Watch <a href="https://www.youtube.com/watch?v=cEBkvm0-rg0" target="_blank"> video
-</table></tr></td>
-<table><tr><td>
+
+
 <h3>Challenge 1</h3>
 <strong>Multiply</strong>
 
@@ -54,8 +54,7 @@ function uniTotal (string) {
   return sum; // como es una funcion debe de devolver un valor 
 }
 ```
-</table></tr></td>
-<table><tr><td>
+
 <h3>Challenge 3</h3>
 <strong>get character from ASCII Value</strong>
 
@@ -90,8 +89,7 @@ Examples:(Input1, Input2 --> Output (explanation)))
 5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
 
 Answer:
-</table></tr></td>
-<table><tr><td>
+
 <h3>Challenge 5</h3>
 <strong>Student's Final Grade</strong>
 
@@ -120,9 +118,9 @@ function finalGrade (exam, projects) {
   } else { return "Not a valid number";}
 }
 ```
-</table></tr></td>
+
 <h2>Wednesday | Week 2 Challennges</2>
-<table><tr><td>
+
 <h3>Challenge 1</h3>
 <strong>Holiday VIII - Duty Free</strong>
 
