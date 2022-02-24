@@ -18,7 +18,7 @@ Watch <a href="https://www.youtube.com/watch?v=cEBkvm0-rg0" target="_blank"> vid
 
 
 <h3>Challenge 1</h3>
-<strong>Multiply</strong>
+<strong>Multiply</strong><br>
 This code does not execute properly. Try to figure out why.
 
 ```Javascript
@@ -35,7 +35,7 @@ function multiply(a, b){
 ```
 
 <h3>Challenge 2</h3>
-<strong>ASCII Total</strong>
+<strong>ASCII Total</strong><br>
 You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
 
 examples:
@@ -55,7 +55,7 @@ function uniTotal (string) {
 ```
 
 <h3>Challenge 3</h3>
-<strong>get character from ASCII Value</strong>
+<strong>get character from ASCII Value</strong><br>
 Write a function `get_char() / getChar()` which takes a number and returns the corresponding ASCII `char` for that value.
 
 Example:
@@ -74,7 +74,7 @@ function getChar(c){
 ```
 
 <h3>Challenge 4</h3>
-<strong>Binary Addition</strong>
+<strong>Binary Addition</strong><br>
 Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition. The binary number returned should be a string.
 
 Examples:(Input1, Input2 --> Output (explanation)))
@@ -90,7 +90,7 @@ function addBinary(a,b) {
 ```
 
 <h3>Challenge 5</h3>
-<strong>Student's Final Grade</strong>
+<strong>Student's Final Grade</strong><br>
 Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects. This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above); This function should return a number (final grade). There are four types of final grades:
 
 100, if a grade for the exam is more than 90 or if a number of completed projects more than 10.
@@ -116,7 +116,7 @@ function finalGrade (exam, projects) {
 <h2>Wednesday | Week 2 Challennges</2>
 
 <h3>Challenge 1</h3>
-<strong>Holiday VIII - Duty Free</strong>
+<strong>Holiday VIII - Duty Free</strong><br>
 The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday. You will be given the high street price (normPrice), the duty free discount (discount) and the cost of the holiday. For example, if a bottle cost £10 normally and the discount in duty free was 10%, you would save £1 per bottle. If your holiday cost £500, the answer you should return would be 500. All inputs will be integers. Please return an integer. Round down.
 
 Answer:
@@ -127,7 +127,7 @@ function dutyFree(normPrice, discount, hol){
 }
 ```
 <h3>Challenge 2</h3>
-<strong>Twice as old</strong>
+<strong>Twice as old</strong><br>
 Your function takes two arguments:
 1. current father's age (years)
 2. current age of his son (years)
@@ -140,7 +140,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 }
 ```
 <h3>Challenge 3</h3>
-<strong>Valid Spacing</strong>
+<strong>Valid Spacing</strong><br>
 Your task is to write a function called valid_spacing() or validSpacing() which checks if a string has valid spacing. The function should return either true or false (or the corresponding value in each language). For this kata, the definition of valid spacing is one space between words, and no leading or trailing spaces. Words can be any consecutive sequence of non space characters. Below are some examples of what the function should return:
 
 Answer:
@@ -151,7 +151,7 @@ function validSpacing(s) {
 ```
 
 <h3>Challenge 4</h3>
-<strong>Fake Binary</strong>
+<strong>Fake Binary</strong><br>
 Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string. Note: input will never be an empty string
 
 Answer:
