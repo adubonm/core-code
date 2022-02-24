@@ -131,8 +131,57 @@ For example, if a bottle cost £10 normally and the discount in duty free was 10
 All inputs will be integers. Please return an integer. Round down.
 
 Answer:
-```Javascript
-
 ```
-</table></tr></td>
-<h2>Thursday | Week 2 Challennges</2>
+function dutyFree(normPrice, discount, hol){
+  return Math.trunc( hol / ( normPrice * ( discount
+/ 100)));
+}
+```
+<h3>Challenge 2</h3>
+<strong>Twice as old</strong>
+Your function takes two arguments:
+1. current father's age (years)
+2. current age of his son (years)
+Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
+
+Answer:
+```
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(dadYearsOld - 2 * sonYearsOld);
+}
+```
+<h3>Challenge 3</h3>
+<strong>Valid Spacing</strong>
+Your task is to write a function called valid_spacing() or validSpacing() which checks if a string has valid spacing. The function should return either true or false (or the corresponding value in each language).
+
+For this kata, the definition of valid spacing is one space between words, and no leading or trailing spaces. Words can be any consecutive sequence of non space characters. Below are some examples of what the function should return:
+
+Answer:
+```
+function validSpacing(s) {
+  return s.trim() == s && !s.includes('  ');
+}
+```
+
+<h3>Challenge 4</h3>
+<strong>Fake Binary</strong>
+Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
+
+Note: input will never be an empty string
+
+Answer:
+```
+/*This is my solution*/
+function fakeBin(x){
+  const toArr = x.split('');
+  const newArr = toArr.map(y => parseInt(y) < 5 ? "0" : "1")
+  return newArr.join('');
+}
+```
+or
+```
+/*This is a better solution*/
+function fakeBin(x) {
+    return x.split('').map(n => n < 5 ? 0 : 1).join('');
+}
+```
