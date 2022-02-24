@@ -131,7 +131,7 @@ For example, if a bottle cost £10 normally and the discount in duty free was 10
 All inputs will be integers. Please return an integer. Round down.
 
 Answer:
-```
+```Javascript
 function dutyFree(normPrice, discount, hol){
   return Math.trunc( hol / ( normPrice * ( discount
 / 100)));
@@ -145,7 +145,7 @@ Your function takes two arguments:
 Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
 
 Answer:
-```
+```Javascript
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   return Math.abs(dadYearsOld - 2 * sonYearsOld);
 }
@@ -157,7 +157,7 @@ Your task is to write a function called valid_spacing() or validSpacing() which 
 For this kata, the definition of valid spacing is one space between words, and no leading or trailing spaces. Words can be any consecutive sequence of non space characters. Below are some examples of what the function should return:
 
 Answer:
-```
+```Javascript
 function validSpacing(s) {
   return s.trim() == s && !s.includes('  ');
 }
@@ -170,7 +170,7 @@ Given a string of digits, you should replace any digit below 5 with '0' and any 
 Note: input will never be an empty string
 
 Answer:
-```
+```Javascript
 /*This is my solution*/
 function fakeBin(x){
   const toArr = x.split('');
@@ -179,7 +179,7 @@ function fakeBin(x){
 }
 ```
 or
-```
+```Javascript
 /*This is a better solution*/
 function fakeBin(x) {
     return x.split('').map(n => n < 5 ? 0 : 1).join('');
