@@ -113,7 +113,7 @@ function finalGrade (exam, projects) {
 }
 ```
 
-<h2>Wednesday | Week 2 Challennges</2>
+<h2>Wednesday | Week 2 Challenges</2>
 
 <h3>Challenge 1</h3>
 <strong>Holiday VIII - Duty Free</strong><br>
@@ -184,3 +184,103 @@ bin+=1;
 return bin;
 }
 ```
+<h2>Thursday | Week 2 Challenges</h2>
+
+<h3>Challenge 1</h3>
+<strong>Exclamation marks series #2: Remove all exclamation marks from the end of sentence</strong><br>
+Remove all exclamation marks from the end of sentence.
+
+Examples
+```Javascript
+remove("Hi!") === "Hi"
+remove("Hi!!!") === "Hi"
+remove("!Hi") === "!Hi"
+remove("!Hi!") === "!Hi"
+remove("Hi! Hi!") === "Hi! Hi"
+remove("Hi") === "Hi"
+```
+Answer:
+```Javascript
+function remove(s)
+{
+    while(s && s.slice(-1) == "!") 
+    { 
+        s = s.slice(0,-1) 
+    }
+    return s;
+}
+```
+<h3>Challenge 2</h3>
+<strong>Vowel remover</strong><br>
+Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+
+Examples
+```Javascript
+"hello"     -->  "hll"
+"codewars"  -->  "cdwrs"
+"goodbye"   -->  "gdby"
+"HELLO"     -->  "HELLO"
+```
+-Don't worry about uppercase vowels<br>
+-y is not considered a vowel for this kata
+
+Answer:
+```Javascript
+function shortcut(string){
+  return string.replace(/[aeiou]/g,'')
+}
+```
+<h3>Challenge 3</h3>
+<strong>Rock Paper Scissors!</strong><br>
+Let's play! You have to return which player won! In case of a draw return Draw!.
+
+Examples:
+```Javascript
+rps('scissors','paper') // Player 1 won!
+rps('scissors','rock') // Player 2 won!
+rps('paper','paper') // Draw!
+```
+
+Answer:
+```Javascript
+const rps = (p1, p2) => {
+  if (p1 === p2) return 'Draw!'
+  
+  const rules = { paper: 'rock', rock: 'scissors', scissors: 'paper'}
+  return rules[p1] === p2 ? 'Player 1 won!' : 'Player 2 won!'
+ 
+};
+```
+<h3>Challenge 4</h3>
+<strong>Persistent Bugger.</strong><br>
+Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
+
+For example (Input --> Output):
+```Javascript
+39 --> 3 (because 3*9 = 27, 2*7 = 14, 1*4 = 4 and 4 has only one digit)
+999 --> 4 (because 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12, and finally 1*2 = 2)
+4 --> 0 (because 4 is already a one-digit number)
+```
+
+Answer:
+```Javascript
+function persistence(num) {
+   let i = 0;
+   while (num.toString().length !== 1) {
+     num = num.toString().split("").reduce((a,b)=>a*b);
+     i++;
+   }
+   return i;
+}
+```
+<h3>Challenge </h3>
+<strong>Mission statement</strong><br>
+Let’s write our Mission Statement! In one paragraph, please answer to the next 5 questions:
+
+1. Who are you?
+2. What background do you have?
+3. Who do you want to be?
+4. What do you want to do?
+5. What are the core values and principles that govern your character and contributions?
+
+<table><tr><td>I’m a software developer aspirant with knowledge in JavaScript, HTML, CSS, React, Bash, Git & GitHub. Passionate about technology and all the possibilities that computing entails. I consider myself a result-driven person and long-life learner.</td></tr></table>
