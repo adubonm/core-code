@@ -273,7 +273,7 @@ function persistence(num) {
    return i;
 }
 ```
-<h3>Challenge </h3>
+<h3>Challenge 5</h3>
 <strong>Mission statement</strong><br>
 Let’s write our Mission Statement! In one paragraph, please answer to the next 5 questions:
 
